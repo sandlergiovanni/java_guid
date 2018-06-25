@@ -9,7 +9,7 @@ import java.util.Random;
 import java.util.UUID;
 
 /**
- * @author Dirceu
+ * @author Tuerê Pinto
  */
 public class Guid {
 
