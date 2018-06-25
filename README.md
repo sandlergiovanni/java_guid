@@ -11,7 +11,7 @@ Está classe gera códigos ***id*** no formato string, contendo 22 ou 36 posiç�
     import java.util.UUID;
     
     
-## (Class)[https://github.com/tuerepinto/java_guid/blob/master/Guid.java]
+## [Class](https://github.com/tuerepinto/java_guid/blob/master/Guid.java)
     public class Guid {
       private static Guid guidFactory = new Guid();
       static Random random = new Random();
