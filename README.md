@@ -4,8 +4,7 @@ Create Guid in project java.
 
 
 ## Quick Start
-
-Está classe gera códigos ***id*** no formato string, contendo 22 ou 36 posições
+Está classe gera códigos ***id*** no formato string, contendo 22 ou 36 posições.
 
 ## Import
     import java.util.Random;
@@ -45,3 +44,6 @@ Está classe gera códigos ***id*** no formato string, contendo 22 ou 36 posiç�
                   Long.toString(System.currentTimeMillis() & 0xFFFFFFFFFFFFFL, 32);
       }
     }
+
+## Implementação de chamada
+     object.setId(Guid.getString(22));
